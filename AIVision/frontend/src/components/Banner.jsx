@@ -1,11 +1,11 @@
 import React from 'react'
-import Eye from '../../public/eye2.png'
+import Eye from '../../public/eyeimage.webp'
 
 import { Link } from 'react-router-dom'
 function Banner() {
   return (
     <>
-    <div className=' max-w-screen-2xl container mx-auto md:px-20 px-4 bg-white text-black dark:bg-black dark:text-white flex flex-col md:flex-row py-6'>
+    <div className=' max-w-screen-2xl container mx-auto md:px-20 px-14 bg-white text-black dark:bg-black dark:text-white flex flex-col md:flex-row py-6'>
       <div className='w-full md:w-1/2 order-2 md:order-1 space-y-7 md:mt-32'>
         {/* <div className='space-y-8'> */} 
         <h1 className='text-4xl font-bold'>Welcome to Real-Time Object and {" "}
@@ -24,7 +24,7 @@ function Banner() {
       </div>
     <div className='w-full order-1 md:w-1/2 grid place-items-center'>
       {/* <img src={BannerLogo} className='hover:scale-105 dark:hover:drop-shadow-[0_25px_25px_rgba(220,220,220,0.17)] hover:drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] duration-300 w-100 h-100' alt="bannerLogo" /> */}
-      <img src={Eye} className='ml-16 mt-14 w-90 h-96 hover:scale-105 shadow-none shadow-cyan-700 hover:shadow-xl hover:shadow-cyan-300 duration-500 rounded-badge' alt="bannerLogo" />
+      <img src={Eye} className='ml-16 mt-14 w-90 h-96 hover:scale-105 shadow-none shadow-cyan-900 hover:shadow-xl hover:shadow-cyan-300 duration-700 rounded-badge' alt="bannerLogo" />
     </div>
     </div>
     </>

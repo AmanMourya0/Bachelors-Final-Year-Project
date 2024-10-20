@@ -33,7 +33,7 @@ function Contact() {
                     {errors.email && <span className='text-sm text-red-600'>This field is required</span>}</div>
                     <div className='space-y-2' >
                     <label>Message</label><br />   
-                    <input {...register("text", { required: true })} type="password" placeholder='Password' className='bg-white px-6 py- w-80 border rounded-sm'/><br />
+                    <input {...register("text", { required: true })} type="text" placeholder='text' className='bg-white px-6 py- w-80 border rounded-sm'/><br />
                     {errors.text && <span className='text-sm text-red-500'>This field is required</span>}</div>
                     <div className='py-3'>
                     <button type="submit" className='bg-blue-600 px-4 py-1 border rounded-md border-none '>Submit</button>

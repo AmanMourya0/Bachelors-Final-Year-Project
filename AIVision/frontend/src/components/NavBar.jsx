@@ -41,17 +41,16 @@ function NavBar() {
   },[]);
     const NavItems=(
         <>
-        <li><Link className='hover:bg-orange-400 hover:text-white' to={'/'}>Home</Link></li>
-        <li><Link className='hover:bg-orange-400 hover:text-white' to={'/AboutUs'}>About us</Link></li>
-        <li><Link className='hover:bg-orange-400 hover:text-white' to={'/courses'}>Services</Link></li>
-        <li><Link className='hover:bg-orange-400 hover:text-white' to={"/ContactUs"}>Contact us</Link></li>
+        <li><Link className='hover:bg-cyan-400 hover:text-white' to={'/'}>Home</Link></li>
+        <li><Link className='hover:bg-cyan-400 hover:text-white' to={'/AboutUs'}>About us</Link></li>
+        <li><Link className='hover:bg-cyan-400 hover:text-white' to={'/courses'}>Services</Link></li>
+        <li><Link className='hover:bg-cyan-400 hover:text-white' to={"/ContactUs"}>Contact us</Link></li>
         </>
     )
   return (
     <>
-    <div className={` max-w-screen-2xl container mx-auto md:px-20 px-4 bg-white text-black dark:bg-black dark:text-cyan-400 fixed top-0 left-0 right-0 z-50 ${
-      sticky?"sticky-navbar shadow-md bg-slate-300 dark:bg-opacity-70 duration-200 transition-all ease-in-out":""
-    } `} >
+    <div className={` max-w-screen-2xl container mx-auto md:px-20 px-4 bg-white text-black dark:bg-black dark:text-cyan-400 fixed top-0 left-0 right-0 z-50 
+    ${sticky?"sticky-navbar shadow-md dark:shadow-md dark:shadow-cyan-900 bg-slate-300 bg-opacity-70 dark:bg-opacity-70 duration-200 transition-all ease-in-out":""} `} >
     <div className="navbar">
   <div className="navbar-start wd-50">
     <div className="dropdown">

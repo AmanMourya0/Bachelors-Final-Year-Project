@@ -4,9 +4,9 @@ function Footer() {
   return (
     <>
     <footer className="bg-slate-300 dark:bg-black footer footer-center p-10 text-black text-base-content rounded dark:text-white">
-  <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
+  <nav className="grid grid-flow-col gap-20">
+    <a className="link link-hover" href='/AboutUs'>About us</a>
+    <a className="link link-hover" href='/ContactUs'>Contact</a>
     <a className="link link-hover">Services</a>
     <a className="link link-hover">Team</a>
   </nav> 

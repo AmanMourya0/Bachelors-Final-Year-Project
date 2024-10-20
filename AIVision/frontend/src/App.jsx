@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-    <div className=' text-black dark:bg-slate-900 dark:text-white light:bg-slate-100 '>
+    <div className=' text-black bg-white dark:bg-black dark:text-white '>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/Courses" element={
